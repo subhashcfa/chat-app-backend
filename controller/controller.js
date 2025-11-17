@@ -9,6 +9,7 @@ const msgFunction= async function(req,res)
     catch(err)
     {
         console.log("err",err);
+        console.log("ram ram ji");
     }
 }
 module.exports.msgFunction=msgFunction;
