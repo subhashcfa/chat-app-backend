@@ -18,6 +18,8 @@ const newMessage= async function(req,res)
 {
     try{
         console.log("called api");
+        console.log("here called for new message");
+        console.log("here from third branch");
     }
     catch(err)
     {
