@@ -13,3 +13,15 @@ const msgFunction= async function(req,res)
     }
 }
 module.exports.msgFunction=msgFunction;
+
+const newMessage= async function(req,res)
+{
+    try{
+        console.log("called api");
+    }
+    catch(err)
+    {
+        console.log("err",err);
+    }
+}
+module.exports.newMessage=newMessage;
